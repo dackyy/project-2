@@ -1,4 +1,4 @@
-import myInterface.Shape;
+import MyInterface.Shape;
 /**
  * Circle 객체를 만드는 클래스
  * 
@@ -22,7 +22,7 @@ public class Circle implements Shape
     
     public double getArea()
     {
-        return radius*radius*PI;
+        return radius*radius*radius;
     }
     
     public void draw(){
