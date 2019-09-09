@@ -3,7 +3,7 @@ import MyInterface.Shape;
  * Circle 객체를 만드는 클래스
  * 
  * @author (2018315017 임민택, 2018315038 이혜인, 2018315026 정대기)
- * @version (2019.09.02)
+ * @version (2019.09.09)
  */
 
 
