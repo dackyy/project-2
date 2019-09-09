@@ -1,8 +1,8 @@
 package MyInterface;
 /**
- *   ?¸?„°?˜?´?Š¤ Shape
+ *   2019.09.09 Shape
  * 
- * @author (2018315017 ?„ë¯¼íƒ, 2018315038 ?´?˜œ?¸, 2018315026 ? •??ê¸?) 
+ * @author (2018315017 ì„ë¯¼íƒ, 2018315038 ì´í˜œì¸, 2018315026 ì •ëŒ€ê¸°) 
  * @version (2019.09.02)
  */
 
@@ -12,7 +12,7 @@ public interface Shape
     void draw();
     double getArea();
     default public void redraw(){
-        System.out.print("--- ?‹¤?‹œ ê·¸ë¦½?‹ˆ?‹¤. ");
+        System.out.print("--- ?ï¿½ï¿½?ï¿½ï¿½ ê·¸ë¦½?ï¿½ï¿½?ï¿½ï¿½. ");
         draw();
     }
 }
