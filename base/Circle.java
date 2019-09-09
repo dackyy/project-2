@@ -30,13 +30,7 @@ public class Circle implements Shape
         System.out.println("반지름이 " + this.radius + "인 원입니다.");
     }
     
-    public Integer get_x(){
-        Integer x = new Integer (this.x);
-        return x;
-    }
-    
-    public Integer get_y(){
-        Integer y = new Integer (this.y);
-        return y;
+    public boolean equals(Object obj){
+        
     }
 }
