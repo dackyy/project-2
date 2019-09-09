@@ -29,11 +29,13 @@ public class Circle implements Shape
         System.out.println("반지름이 " + this.radius + "인 원입니다.");
     }
     
-    public int get_x(){
-        return this.x;
+    public Integer get_x(){
+        Integer x = new Integer (this.x);
+        return x;
     }
     
-    public int get_y(){
-        return this.y;
+    public Integer get_y(){
+        Integer y = new Integer (this.y);
+        return y;
     }
 }
