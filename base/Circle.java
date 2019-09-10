@@ -11,8 +11,8 @@ import MyInterface.Shape;
 public class Circle implements Shape
 {
     private int radius;
-    public int x;
-    public int y;
+    private int x;
+    private int y;
 
     public Circle(int x, int y, int radius)
     {
