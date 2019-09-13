@@ -47,4 +47,8 @@ public class Circle implements Shape
         else
             return false;
     }
+    
+    public String toString(){
+        return "중심원" + "(" + this.x + ", " + this.y + ")";
+    }
 }
